@@ -1,0 +1,1 @@
+avreal32-1.28r12 +mega168PA -aft2232:enable=~adbus4 -r -c read_6ch.hex

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>821314149</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\6ch.d90</file>
+      <file>$PROJ_DIR$\Debug\Obj\6ch.pbd</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\6ch.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\core.h</file>
+      <file>$PROJ_DIR$\hmi.h</file>
+      <file>$PROJ_DIR$\defs.h</file>
+      <file>$PROJ_DIR$\I2C.H</file>
+      <file>$PROJ_DIR$\PCF8583.H</file>
+      <file>$PROJ_DIR$\shell.h</file>
+      <file>$PROJ_DIR$\timers.h</file>
+      <file>$PROJ_DIR$\uart.h</file>
+      <file>$PROJ_DIR$\core.c</file>
+      <file>$PROJ_DIR$\I2C.C</file>
+      <file>$PROJ_DIR$\PCF8583.C</file>
+      <file>$PROJ_DIR$\shell.c</file>
+      <file>$PROJ_DIR$\timers.c</file>
+      <file>$PROJ_DIR$\uart.c</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\Release\Obj\shell.r90</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\avr_macros.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r90</file>
+      <file>$TOOLKIT_DIR$\inc\comp_a90.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm168pa.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Release\Obj\PCF8583.r90</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom168pa.inc</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\Release\Exe\6ch.e2p</file>
+      <file>$PROJ_DIR$\Release\Obj\I2C.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\I2C.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\PCF8583.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\shell.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iom168pa.h</file>
+      <file>$PROJ_DIR$\Release\Exe\6ch.a90</file>
+      <file>$PROJ_DIR$\Release\Exe\6ch.d90</file>
+      <file>$PROJ_DIR$\Release\List\6ch.map</file>
+      <file>$PROJ_DIR$\Release\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Release\Obj\uart.r90</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Release\Exe\6ch.hex</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-ec_mul-sf-n.r90</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Release\Obj\6ch.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\timers.r90</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-ec_mul-sf-n.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Release\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\core.r90</file>
+      <file>$TOOLKIT_DIR$\inc\ina90.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 36 37 43 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\core.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 48 42 49 50 25 39 41 0 5 7 6 4 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 42 49 50 25 39 41 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\I2C.C</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 48 42 49 50 25 39 41 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 42 49 50 25 39 41 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\PCF8583.C</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 48 42 49 50 25 39 41 4 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 42 49 50 25 39 41 4 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\shell.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 19 45 51 16 48 42 49 50 1 2 34 20 27 54 28 55 22 17 25 39 41 7 0 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 19 45 51 16 42 49 50 1 2 34 20 27 54 28 55 22 17 25 39 41 7 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 48 42 49 50 25 39 41 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 42 49 50 25 39 41 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 48 42 49 50 25 39 41 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 42 49 50 25 39 41 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 48 42 49 50 25 39 41 6 7 0 5 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 34 20 27 54 28 55 22 17 19 45 51 16 42 49 50 25 39 41 6 7 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\6ch.a90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 24 21 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\6ch.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 37 43 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 24 30 26 53 21 15 47 40 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\6ch.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 24 53 21 47 40 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\6ch.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 31 32 56 18 33 52 38</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
